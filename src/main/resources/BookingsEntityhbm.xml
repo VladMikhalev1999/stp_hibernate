@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="Entity.BookingsEntity" table="stp_bookings" schema="stp">
+        <id name="id">
+            <column name="ID" sql-type="int(11)"/>
+        </id>
+        <many-to-one name="ticket" class="Entity.TicketsEntity">
+            <column name="NAME" sql-type="int(11)"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>
