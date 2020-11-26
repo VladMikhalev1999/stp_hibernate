@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/target/classes
+# Datasource local storage ignored files
+/../../../../../../:\Users\vladm\IdeaProjects\Hibernate_v1\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
